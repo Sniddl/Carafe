@@ -1,0 +1,27 @@
+{
+  "name": "flask",
+  "version": "1.0.0",
+  "description": "A Docker container for serving Flask applications.",
+  "main": "Carafe.js",
+  "scripts": {
+    "app": "node Carafe.js",
+    "dev": "node Carafe.js dev nowatch",
+    "dev-watch": "node Carafe.js dev log",
+    "production": "node Carafe.js production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sniddl/Carafe.git"
+  },
+  "author": "Sniddl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sniddl/Carafe/issues"
+  },
+  "homepage": "https://github.com/Sniddl/Carafe#readme",
+  "devDependencies": {
+    "node-cmd": "^3.0.0",
+    "node-flags": "^0.1.9",
+    "shelljs": "^0.7.8"
+  }
+}
