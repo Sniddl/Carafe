@@ -1,0 +1,4 @@
+#!/bin/bash
+docker rm -f flask_app
+docker build -t flask .
+docker run -it -p 8000:80 --name flask_app -v $(pwd):/opt/flask flask
